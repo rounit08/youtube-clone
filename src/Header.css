@@ -1,0 +1,62 @@
+.header {
+ margin: 1px;
+    display: flex;
+  
+    margin-top: 1px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__name{
+    color: red;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.headerInput > input {
+    flex :1;
+    border: none;
+    cursor: pointer;
+}
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+    height: 30px !important; 
+}
+.headerInput {
+    height: 30px;
+    margin-left: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    
+}
+.youtubeIcon{
+    margin-left: 75px;
+    
+}
+
+.addvideoIcon {
+    margin-left: 400px;
+}
+
+.notificationIcon{
+    margin-left: 10px;
+}
+
+.appIcon{
+    margin-left: 10px;
+}
+
+.avatarIcon{
+    margin-left: 10px;
+}
